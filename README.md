@@ -1,0 +1,1 @@
+TWD stands for Thelema WeekDay as this tiny doodle is a helper to quickly access today's weekday name in Latin. Put it in into ~/bin of your user or in any other place you prefer. Nothing much more to say.
