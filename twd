@@ -1,0 +1,19 @@
+#!/bin/bash
+
+daynum=$(date +"%u")
+
+case $daynum in
+	1) god="Solis" ;;
+	2) god="Lunae" ;;
+	3) god="Martis" ;;
+	4) god="Mercurii" ;;
+	5) god="Jovis" ;;
+	6) god="Veneris" ;;
+	7) god="Saturnii" ;;
+	*) god="Azathothii" ;;
+esac
+
+echo "Hodie Dies ${god} est."
+if (( $daynum < 1 || $daynum > 7)); then
+	echo "You've obviously screwed something up..."
+fi
